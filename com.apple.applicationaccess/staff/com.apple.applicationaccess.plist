@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Default Staff profile.
+-->
+<plist version="1.0">
+  <dict>
+    <!--<key>allowAirPrint</key> If set to false, disallow AirPrint.
+    <false/>-->
+    <!--<key>allowAirPrintiBeaconDiscovery</key> If set to false, disables iBeacon discovery of AirPrint printers. This prevents spurious AirPrint Bluetooth beacons from phishing for network traffic.
+    <false/>-->
+    <key>allowAutoUnlock</key><!-- If set to false, disallows macOS auto unlock.-->
+    <false/>
+    <!--<key>allowCamera</key> When false, the camera is completely disabled and its icon is removed from the Home screen. Users are unable to take photographs.
+    <false/>-->
+    <!--<key>allowCloudAddressBook</key>< When false, disallows macOS iCloud Address Book services.
+    <false/>-->
+    <!--<key>allowCloudBookmarks</key> When false, disallows macOS iCloud Bookmark sync.
+    <false/>-->
+    <!--<key>allowCloudCalendar</key>< When false, disallows macOS iCloud Calendar services.
+    <false/>-->
+    <key>allowCloudDesktopAndDocuments</key><!--If set to false, disallows macOS cloud desktop and document services. -->
+    <false/>
+    <!--<key>allowCloudDocumentSync</key> When false, disables document and key-value syncing to iCloud.
+    <false/>-->
+    <key>allowCloudKeychainSync</key><!-- When false, disables iCloud keychain synchronization.-->
+    <false/>
+    <!--<key>allowCloudMail</key> When false, disallows macOS Mail iCloud services.
+    <false/>-->
+    <!--<key>allowCloudNotes</key> When false, disallows macOS iCloud Notes services.
+    <false/>-->
+    <!--<key>allowCloudPhotoLibrary</key> If set to false, disables iCloud Photo Library. Any photos not fully downloaded from iCloud Photo Library to the device will be removed from local storage.
+    <false/>-->
+    <!--<key>allowCloudReminders</key> When false, disallows iCloud Reminder services.
+    <false/>-->
+    <key>allowContentCaching</key><!-- When false, this disallows content caching. -->
+    <false/>
+    <!--<key>allowDefinitionLookup</key> If set to false, disables definition lookup.
+    <false/>-->
+    <key>allowDiagnosticSubmission</key><!-- When false, this prevents the device from automatically submitting diagnostic reports to Apple.-->
+    <false/>
+    <key>allowFingerprintForUnlock</key><!-- If false, prevents Touch ID from unlocking a device.-->
+    <false/>
+    <!--<key>allowiTunesFileSharing</key> When false, iTunes application file sharing services are disabled.
+    <false/>-->
+    <!--<key>allowMusicService</key>< If set to false, Music service is disabled and Music app reverts to classic mode.
+    <false/>-->
+    <key>allowSpotlightInternetResults</key><!-- If set to false, Spotlight will not return Internet search results.-->
+    <false/>
+    <!--<key>enforcedSoftwareUpdateDelay</key> This restriction allows the admin to set how many days a software update on the device will be delayed. With this restriction in place, the user will not see a software update until the specified number of days after the software update release date.
+    <false/>-->
+    <!--<key>forceAirPrintTrustedTLSRequirement</key> If set to true, requires trusted certificates for TLS printing communication.
+    <false/>-->
+    <!--<key>forceDelayedSoftwareUpdates</key> if set to true, delays user visibility of Software Updates.
+    <false/>-->
+  </dict>
+</plist>
