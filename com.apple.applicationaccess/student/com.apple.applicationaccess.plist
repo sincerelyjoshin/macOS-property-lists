@@ -1,57 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
-  Default Student profile.
+  The Restrictions payload is designated by specifying com.apple.applicationaccess as the PayloadType value.
+  A Restrictions payload allows the administrator to restrict the user from doing certain things with the device, such as using the camera.
+  The Restrictions payload is supported in iOS; some keys are also supported in macOS, as noted below.
+  In addition to the settings common to all payloads, this payload defines the following keys:
 -->
 <plist version="1.0">
   <dict>
-    <!--<key>allowAirPrint</key> If set to false, disallow AirPrint.
+    <key>allowAutoUnlock</key>
+    <!--
+      If set to false, disallows macOS auto unlock. Defaults to true.
+      Availability: Available only in macOS 10.12 and later.
+    -->
+    <false/>
+    <!--<key>allowCamera</key>
+      Optional. When false, the camera is completely disabled and its icon is removed from the Home screen. Users are unable to take photographs.
+      Availability: Available in iOS and in macOS 10.11 and later
     <false/>-->
-    <!--<key>allowAirPrintiBeaconDiscovery</key> If set to false, disables iBeacon discovery of AirPrint printers. This prevents spurious AirPrint Bluetooth beacons from phishing for network traffic.
+    <key>allowCloudAddressBook</key>
+    <!--
+      Optional. When false, disallows macOS iCloud Address Book services.
+      Availability: Available in macOS 10.12 and later.
+    -->
+    <false/>
+    <key>allowCloudBookmarks</key>
+    <!--
+      Optional. When false, disallows macOS iCloud Bookmark sync.
+      Availability: Available in macOS 10.12 and later.
+    -->
+    <false/>
+    <key>allowCloudCalendar</key>
+    <!--
+      Optional. When false, disallows macOS iCloud Calendar services.
+      Availability: Available in macOS 10.12 and later.
+    -->
+    <false/>
+    <key>allowCloudDesktopAndDocuments</key>
+    <!--
+      If set to false, disallows macOS cloud desktop and document services. Defaults to true.
+      Availability: Available only in macOS 10.12.4 and later
+    -->
+    <false/>
+    <key>allowCloudDocumentSync</key>
+    <!--
+      Optional. When false, disables document and key-value syncing to iCloud. This key is deprecated on unsupervised devices.
+      Availability: Available in iOS 5.0 and later and in macOS 10.11 and later.
+    -->
+    <false/>
+    <key>allowCloudKeychainSync</key>
+    <!--
+      Optional. When false, disables iCloud keychain synchronization. Default is true.
+      Availability: Available in iOS 7.0 and later and macOS 10.12 and later.
+    -->
+    <false/>
+    <key>allowCloudMail</key>
+    <!--
+      Optional. When false, disallows macOS Mail iCloud services.
+      Availability: Available in macOS 10.12 and later
+    -->
+    <false/>
+    <key>allowCloudNotes</key>
+    <!--
+      Optional. When false, disallows macOS iCloud Notes services.
+      Availability: Available in macOS 10.12 and later.
+    -->
+    <false/>
+    <key>allowCloudPhotoLibrary</key>
+    <!--
+      If set to false, disables iCloud Photo Library. Any photos not fully downloaded from iCloud Photo Library to the device will be removed from local storage.
+      Availability: Available in iOS 9.0 and later and in macOS 10.12 and later.
+    -->
+    <false/>
+    <key>allowCloudReminders</key>
+    <!--
+      Optional. When false, disallows iCloud Reminder services.
+      Availability: Available in macOS 10.12 and later
+    -->
+    <false/>
+    <key>allowContentCaching</key>
+    <!--
+      Optional. When false, this disallows content caching. Defaults to true.
+      Availability: Available only in macOS 10.13 and later.
+    -->
+    <false/>
+    <key>allowDefinitionLookup</key>
+    <!--
+      Supervised only. If set to false, disables definition lookup. Defaults to true.
+      Availability: Available in iOS 8.1.3 and later and in macOS 10.11.2 and later.
+    -->
+    <false/>
+    <key>allowFingerprintForUnlock</key>
+    <!--
+      Optional. If false, prevents Touch ID from unlocking a device.
+      Availability: Available in iOS 7 and later and in macOS 10.12.4 and later.
+    -->
+    <false/>
+    <key>allowiTunesFileSharing</key>
+    <!--
+      Optional. When false, iTunes application file sharing services are disabled.
+      Availability: Available in macOS 10.13 and later.
+    -->
+    <false/>
+    <key>allowMusicService</key>
+    <!--
+      Supervised only. If set to false, Music service is disabled and Music app reverts to classic mode. Defaults to true.
+      Availability: Available in iOS 9.3 and later and macOS 10.12 and later.
+    -->
+    <false/>
+    <key>allowPasswordAutoFill</key>
+    <!--
+      Optional. Supervised only. If set to false, users will not be able to use the AutoFill Passwords feature on iOS and will not be prompted to use a saved password in Safari or in apps. If set to false, Automatic Strong Passwords will also be disabled and strong passwords will not be suggested to users. Defaults to true.
+      Availability: Available only in iOS 12.0 and macOS 10.14 and later
+    -->
+    <false/>
+    <key>allowPasswordProximityRequests</key>
+    <!--
+      Optional. Supervised only. If set to false, a userʼs device will not request passwords from nearby devices. Defaults to true.
+      Availability: Available only in iOS 12.0, macOS 10.14, and tvOS 12.0 and later.
+    -->
+    <false/>
+    <key>allowPasswordSharing</key>
+    <!--
+      Optional. Supervised only. If set to false, users can not share their passwords with the Airdrop Passwords feature. Defaults to true.
+      Availability: Available only in iOS 12.0 and macOS 10.14 and later.
+    -->
+    <false/>
+    <!--<key>allowRemoteScreenObservation</key>
+      If set to false, remote screen observation by the Classroom app is disabled. Defaults to true. This key should be nested beneath allowScreenShot as a sub-restriction. If allowScreenShot is set to false, it also prevents the Classroom app from observing remote screens.
+      Availability: Available in iOS 9.3 and macOS 10.14.4 and later
+    <true/>-->
+    <!--<key>allowScreenShot</key>
+      Optional. If set to false, users canʼt save a screenshot of the display and are prevented from capturing a screen recording; it also prevents the Classroom app from observing remote screens. Defaults to true.
+      Availability: Updated in iOS 9.0 to include screen recordings. Available in macOS 10.14.4 and later
+    <true/>-->
+    <key>allowSpotlightInternetResults</key>
+    <!--
+      Supervised only. If set to false, Spotlight will not return Internet search results.
+      Availability: Available in iOS and in macOS 10.11 and later
+    -->
+    <false/>
+    <!--<key>enforcedSoftwareUpdateDelay</key>
+      Supervised only. This restriction allows the admin to set how many days a software update on the device will be delayed. With this restriction in place, the user will not see a software update until the specified number of days after the software update release date. The max is 90 days and the default value is 30.
+      Availability: Available in iOS 11.3 and macOS 10.13.4 and tvOS 12.2 later
     <false/>-->
-    <key>allowAutoUnlock</key><!-- If set to false, disallows macOS auto unlock.-->
-    <false/>
-    <!--<key>allowCamera</key> When false, the camera is completely disabled and its icon is removed from the Home screen. Users are unable to take photographs.
+    <!--<key>forceClassroomAutomaticallyJoinClasses</key>
+      Optional. Supervised only. If set to true, automatically give permission to the teacherʼs requests without prompting the student. Defaults to false.
+      Availability: Available only in iOS 11.0 and macOS 10.14.4 and later.
     <false/>-->
-    <key>allowCloudAddressBook</key><!-- When false, disallows macOS iCloud Address Book services.-->
-    <false/>
-    <key>allowCloudBookmarks</key><!-- When false, disallows macOS iCloud Bookmark sync.-->
-    <false/>
-    <key>allowCloudCalendar</key><!-- When false, disallows macOS iCloud Calendar services.-->
-    <false/>
-    <key>allowCloudDesktopAndDocuments</key><!--If set to false, disallows macOS cloud desktop and document services. -->
-    <false/>
-    <key>allowCloudDocumentSync</key><!-- When false, disables document and key-value syncing to iCloud.-->
-    <false/>
-    <key>allowCloudKeychainSync</key><!-- When false, disables iCloud keychain synchronization.-->
-    <false/>
-    <key>allowCloudMail</key><!-- When false, disallows macOS Mail iCloud services.-->
-    <false/>
-    <key>allowCloudNotes</key><!-- When false, disallows macOS iCloud Notes services.-->
-    <false/>
-    <key>allowCloudPhotoLibrary</key><!-- If set to false, disables iCloud Photo Library. Any photos not fully downloaded from iCloud Photo Library to the device will be removed from local storage.-->
-    <false/>
-    <key>allowCloudReminders</key><!-- When false, disallows iCloud Reminder services.-->
-    <false/>
-    <key>allowContentCaching</key><!-- When false, this disallows content caching. -->
-    <false/>
-    <key>allowDefinitionLookup</key><!-- If set to false, disables definition lookup.-->
-    <false/>
-    <key>allowDiagnosticSubmission</key><!-- When false, this prevents the device from automatically submitting diagnostic reports to Apple.-->
-    <false/>
-    <key>allowFingerprintForUnlock</key><!-- If false, prevents Touch ID from unlocking a device.-->
-    <false/>
-    <key>allowiTunesFileSharing</key><!-- When false, iTunes application file sharing services are disabled.-->
-    <false/>
-    <key>allowMusicService</key><!-- If set to false, Music service is disabled and Music app reverts to classic mode.-->
-    <false/>
-    <key>allowSpotlightInternetResults</key><!-- If set to false, Spotlight will not return Internet search results.-->
-    <false/>
-    <!--<key>enforcedSoftwareUpdateDelay</key> This restriction allows the admin to set how many days a software update on the device will be delayed. With this restriction in place, the user will not see a software update until the specified number of days after the software update release date.
+    <!--<key>forceClassroomRequestPermissionToLeaveClasses</key>
+      Optional. Supervised only. If set to true, a student enrolled in an unmanaged course via Classroom will request permission from the teacher when attempting to leave the course. Defaults to false.
+      Availability: Available only in iOS 11.3 and macOS 10.14.4 and later.
     <false/>-->
-    <!--<key>forceAirPrintTrustedTLSRequirement</key> If set to true, requires trusted certificates for TLS printing communication.
+    <!--<key>forceClassroomUnpromptedAppAndDeviceLock</key>
+      Optional. Supervised only. If set to true, allow the teacher to lock apps or the device without prompting the student. Defaults to false.
+      Availability: Available only in iOS 11.0 and macOS 10.14.4 and later.
     <false/>-->
-    <!--<key>forceDelayedSoftwareUpdates</key> if set to true, delays user visibility of Software Updates.
+    <!--<key>forceClassroomUnpromptedScreenObservation</key>
+      Optional. Supervised only. If set to true, and ScreenObservationPermissionModificationAllowed is also true in the Education payload, a student enrolled in a managed course via the Classroom app will automatically give permission to that courseʼs teacherʼs requests to observe the studentʼs screen without prompting the student. Defaults to false.
+      Availability: Available only in iOS 11.0 and macOS 10.14.4 and later.
+    <false/>-->
+    <!--<key>forceDelayedSoftwareUpdates</key>
+      Supervised only. If set to true, delays user visibility of Software Updates. Defaults to false. On macOS, seed build updates will be allowed, without delay.
+      Availability: Available in iOS 11.3 and macOS 10.13 and tvOS 12.2 and later.
     <false/>-->
   </dict>
 </plist>
