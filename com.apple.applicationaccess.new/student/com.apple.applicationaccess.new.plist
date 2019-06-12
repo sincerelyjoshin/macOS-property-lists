@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
+  Default Student Restrictions profile.
 -->
 <plist version="1.0">
   <dict>
@@ -13,7 +14,7 @@
       <string>/Applications/Time Machine.app/</string>
       <string>/Applications/Messages.app/</string>
       <string>/Applications/Siri.app/</string>
-      <string>/Applications/LEGO MINDSTORMS Education EV3.app/Contents/MonoBundle/Resources</string>
+      <string>/Applications/LEGO MINDSTORMS Education EV3.app/Contents/MonoBundle/Resources</string><!-- Standard Users have access to write to this directory -->
       <string>/Applications/Utilities/Activity Monitor.app/</string>
       <string>/Applications/Utilities/AirPort Utility.app/</string>
       <string>/Applications/Utilities/Bluetooth File Exchange.app/</string>
