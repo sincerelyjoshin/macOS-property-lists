@@ -55,6 +55,13 @@
       Default: true
     <true/>
     -->
+    <key>allowCloudBTMM</key>
+    <!--
+      boolean
+      If false, diables iCloud Back to My Mac services. Available in macOS 10.12 and later.
+      Default: true
+    -->
+    <false/>
     <!--
     <key>allowCloudCalendar</key>
       boolean
@@ -74,6 +81,13 @@
       boolean
       If false, disables document and key-value syncing to iCloud. Requires a supervised device as of iOS 13. Available in iOS 5 and later, and macOS 10.11 and later.
       Default: true
+    -->
+    <false/>
+    <key>allowCloudFMM</key>
+    <!--
+      boolean
+      If false, disables iCloud Find My Mac services. Available in macOS 10.12 and later.
+      Default: true`
     -->
     <false/>
     <key>allowCloudKeychainSync</key>
