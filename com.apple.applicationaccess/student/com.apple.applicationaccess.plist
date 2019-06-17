@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  The Restrictions payload is designated by specifying com.apple.applicationaccess as the PayloadType value.
+  In addition to the settings common to all payloads, this payload defines the following keys:
+-->
+<plist version="1.0">
+  <dict>
+    <!--
+    <key>allowActivityContinuation</key>
+      boolean
+      If false, disables activity continuation. Available in iOS 8 and later, and macOS 10.15 and later.
+      Default: true
+    <true/>
+    -->
+    <key>allowAddingGameCenterFriends</key>
+    <!--
+      boolean
+      If false, prohibits adding friends to Game Center. Requires a supervised device as of iOS 13. Available in iOS 4.2.1 and later, and macOS 10.13 and later.
+      Default: true
+    -->
+    <false/>
+    <key>allowAirDrop</key>
+    <!--
+      boolean
+      If false, disables AirDrop. Requires a supervised device. Available in iOS 7 and later, and macOS 10.13 and later.
+      Default: true
+      -->
+    <false/>
+    <key>allowAutoUnlock</key>
+    <!--
+      boolean
+      If false, disallows auto unlock. Available in macOS 10.12 and later.
+      Default: true
+    -->
+    <false/>
+    <!--
+    <key>allowCamera</key>
+      boolean
+      If false, disables the camera, and its icon is removed from the Home screen. Users are unable to take photographs. Requires a supervised device as of iOS 13. Available in iOS 4 and later, and macOS 10.11 and later.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>allowCloudAddressBook</key>
+      boolean
+      If false, disables iCloud Address Book services. Available in macOS 10.12 and later.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>allowCloudBookmarks</key>
+      boolean
+      If false, disables iCloud Bookmark sync. Available in macOS 10.12 and later.
+      Default: true
+    <true/>
+    -->
+    <key>allowCloudBTMM</key>
+    <!--
+      boolean
+      If false, diables iCloud Back to My Mac services. Available in macOS 10.12 and later.
+      Default: true
+    -->
+    <false/>
+    <!--
+    <key>allowCloudCalendar</key>
+      boolean
+      If false, disables iCloud Calendar services. Available in macOS 10.12 and later.
+      Default: true
+    <true/>
+    -->
+    <key>allowCloudDesktopAndDocuments</key>
+    <!--
+      boolean
+      If false, disables cloud desktop and document services. Available in macOS 10.12.4 and later.
+      Default: true
+    -->
+    <false/>
+    <key>allowCloudDocumentSync</key>
+    <!--
+      boolean
+      If false, disables document and key-value syncing to iCloud. Requires a supervised device as of iOS 13. Available in iOS 5 and later, and macOS 10.11 and later.
+      Default: true
+    -->
+    <false/>
+    <key>allowCloudFMM</key>
+    <!--
+      boolean
+      If false, disables iCloud Find My Mac services. Available in macOS 10.12 and later.
+      Default: true`
+    -->
+    <false/>
+    <key>allowCloudKeychainSync</key>
+    <!--
+      boolean
+      If false, disables iCloud keychain synchronization. Requires a supervised device as of iOS 13. Available in iOS 7 and later, and macOS 10.12 and later.
+      Default: true
+    -->
+    <false/>
+    <!--
+    <key>allowCloudMail</key>
+      boolean
+      If false, disables iCloud Mail services. Available in macOS 10.12 and later.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>allowCloudNotes</key>
+      boolean
+      If false, disables iCloud Notes services. Available in macOS 10.12 and later.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>allowCloudPhotoLibrary</key>
+      boolean
+      If false, disables iCloud Photo Library. Any photos not fully downloaded from iCloud Photo Library to the device will be removed from local storage. Available in iOS 9 and later, and macOS 10.12 and later.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>allowCloudReminders</key>
+      boolean
+      If false, disables iCloud Reminder services. Available in macOS 10.12 and later.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>allowContentCaching</key>
+      boolean
+      If false, disables content caching. As of 10.13.4 this is icnluded in the Conteent caching payload. Available in macOS 10.13 and later.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>allowDiagnosticSubmission</key>
+      boolean
+      If false, prevents the device from automatically submitting diagnostic reports to Apple. Available in iOS 6 and later, and macOS 10.13 and later. Also available for user enrollment.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>allowDictation</key>
+      boolean
+      If false, disallows dictation input. Requires a supervised device. Available in iOS 10.3 and later, and macOS 10.13 and later.
+      Default: true
+    <true/>
+    -->
+    <key>allowFingerprintForUnlock</key>
+    <!--
+      boolean
+      If false, prevents Touch ID from unlocking a device. Available in iOS 7 and later, and macOS 10.12.4 and later.
+      Default: true
+    -->
+    <false/>
+    <key>allowGameCenter</key>
+    <!--
+      boolean
+      If false, disables Game Center, and its icon is removed from the Home screen. Requires a supervised device. Available in iOS 6 and later, and macOS 10.13 and later.
+      Default: true
+    -->
+    <false/>
+    <key>allowiTunesFileSharing</key>
+    <!--
+      boolean
+      If false, disables iTunes application file sharing services. Available in macOS 10.13 and later.
+      Default: true
+    -->
+    <false/>
+    <key>allowMultiplayerGaming</key>
+    <!--
+      boolean
+      If false, prohibits multiplayer gaming. Requires a supervised device as of iOS 13. Available in iOS 4.1 and later, and macOS 10.13 and later.
+      Default: true
+    -->
+    <true/>
+    <!--
+    <key>allowMusicService</key>
+      boolean
+      If false, disables the Music service, and the Music app reverts to classic mode. Requires a supervised device. Available in iOS 9.3 and later, and macOS 10.12 and later.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>allowPasscodeModification</key>
+      boolean
+      If false, prevents the device passcode from being added, changed, or removed.
+      This restriction is ignored by Shared iPads. Requires a supervised device. Available in iOS 9 and later, and macOS 10.13 and later.
+      Default: true
+    <true/>
+    -->
+    <key>allowPasswordAutoFill</key>
+    <!--
+      boolean
+      If false, disables the AutoFill Passwords feature in iOS and the user won't be prompted to use a saved password in Safari or in apps. Also disables Automatic Strong Passwords and strong passwords won't be suggested to users. Requires a supervised device. Available in iOS 12 and later, and macOS 10.14 and later.
+      Default: true
+    -->
+    <false/>
+    <key>allowPasswordProximityRequests</key>
+    <!--
+      boolean
+      If false, disables requesting passwords from nearby devices. Requires a supervised device. Available in iOS 12 and later, macOS 10.14 and later, and tvOS 12 and later.
+      Default: true
+    -->
+    <false/>
+    <key>allowPasswordSharing</key>
+    <!--
+      boolean
+      If false, disables sharing passwords with the Airdrop Passwords feature. Requires a supervised device. Available in iOS 12 and later, and macOS 10.14 and later.
+      Default: true
+    -->
+    <false/>
+    <!--
+    <key>allowRemoteScreenObservation</key>
+      boolean
+      If false, disables remote screen observation by the Classroom app.
+      This key should be nested beneath allowScreenShot as a subrestriction. If allowScreenShot is set to false, it also prevents the Classroom app from observing remote screens. Requires a supervised device. Available in iOS 12 and later, and macOS 10.14.4 and later.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>allowScreenShot</key>
+      boolean
+      If false, disables saving a screenshot of the display and capturing a screen recording. It also disables the Classroom app from observing remote screens. Available in iOS 4 and later, and macOS 10.14.4 and later. Also available for user enrollment.
+      Default: true
+    <true/>
+    -->
+    <key>allowSpotlightInternetResults</key>
+    <!--
+      boolean
+      If false, disables Spotlight Internet search results. Available in iOS 8 and later, and macOS 10.11 and later.
+      Default: true
+    -->
+    <false/>
+    <!--
+    <key>allowWallpaperModification</key>
+      boolean
+      If false, prevents wallpaper from being changed. Requires a supervised device. Available in iOS 9 and later, and macOS 10.13 and later.
+      Default: true
+    <true/>
+    -->
+    <!--
+    <key>enforcedSoftwareUpdateDelay</key>
+      integer
+      Sets how many days a software update on the device will be delayed. With this restriction in place, the user won't see a software update until the specified number of days after the software update release date. Requires a supervised device. Available in iOS 11.3 and later, macOS 10.13.4 and later, and tvOS 12.2 and later.
+      Default: 30
+      Minimum: 1
+      Maximum: 90
+    <integer>30<integer/>
+    -->
+    <!--
+    <key>forceClassroomAutomaticallyJoinClasses</key>
+      boolean
+      If true, automatically gives permission to the teacher's requests without prompting the student. Requires a supervised device. Available in iOS 11 and later, and macOS 10.14.4 and later.
+      Default: false
+    <false/>
+    -->
+    <!--
+    <key>forceClassroomRequestPermissionToLeaveClasses</key>
+      boolean
+      If true, a student enrolled in an unmanaged course via Classroom requests permission from the teacher when attempting to leave the course. Requires a supervised device. Available in iOS 11.3 and later, and macOS 10.14.4 and later.
+      Default: false
+    <false/>
+    -->
+    <!--
+    <key>forceClassroomUnpromptedAppAndDeviceLock</key>
+      boolean
+      If true, allows the teacher to lock apps or the device without prompting the student. Requires a supervised device. Available in iOS 11 and later, and macOS 10.14.4 and later.
+      Default: false
+    <false/>
+    -->
+    <!--
+    <key>forceClassroomUnpromptedScreenObservation</key>
+      boolean
+      If true and ScreenObservationPermissionModificationAllowed is also true in the Education payload, a student enrolled in a managed course via the Classroom app automatically gives permission to that course teacher's requests to observe the student's screen without prompting the student. Requires a supervised device. Available in iOS 11 and later, and macOS 10.14.4 and later.
+      Default: false
+    <false/>
+    -->
+    <!--
+    <key>forceDelayedSoftwareUpdates</key>
+      boolean
+      If true, delays user visibility of software updates.
+      In macOS, seed build updates are allowed, without delay. Requires a supervised device. Available in iOS 11.3 and later, macOS 10.13 and later, and tvOS 12.2 and later.
+      Default: false
+    <false/>
+    -->
+    <key>safariAllowAutoFill</key>
+    <!--
+      boolean
+      If false, disables Safari autofill. Requires a supervised device as of iOS 13. Available in iOS 4 and later, and macOS 10.13 and later.
+      Default: true
+    -->
+    <true/>
+  </dict>
+</plist>
