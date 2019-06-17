@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  The Parental Control Application Access payload is designated by specifying com.apple.applicationaccess.new as the PayloadType value.
+  In addition to the settings common to all payloads, this payload defines these keys:
+-->
+<plist version="1.0">
+  <dict>
+    <key>pathBlackList</key>
+    <!--
+      array of strings
+      Optional. Paths to disallowed applications.
+    -->
+    <array>
+      <string>/Applications/App Store.app/</string>
+      <string>/Applications/Automator.app/</string>
+      <string>/Applications/FaceTime.app/</string>
+      <string>/Applications/Game Center.app/</string>
+      <string>/Applications/Home.app/</string>
+      <string>/Applications/LEGO MINDSTORMS Education EV3.app/Contents/MonoBundle/Resources</string><!-- Standard Users have access to write to this directory -->
+      <string>/Applications/Messages.app/</string>
+      <string>/Applications/Siri.app/</string>
+      <string>/Applications/Time Machine.app/</string>
+      <string>/Applications/Utilities/Activity Monitor.app/</string>
+      <string>/Applications/Utilities/AirPort Utility.app/</string>
+      <string>/Applications/Utilities/Bluetooth File Exchange.app/</string>
+      <string>/Applications/Utilities/Boot Camp Assistant.app/</string>
+      <string>/Applications/Utilities/Console.app/</string>
+      <string>/Applications/Utilities/Disk Utility.app/</string>
+      <string>/Applications/Utilities/Keychain Access.app/</string>
+      <string>/Applications/Utilities/Migration Assistant.app/</string>
+      <string>/Applications/Utilities/Script Editor.app/</string>
+      <string>/Applications/Utilities/Terminal.app/</string>
+      <string>/Applications/Utilities/X11.app/</string>
+      <string>/Library/Application Support/Adobe/Extension Manager CS5.5/</string><!-- Standard Users have access to write to this directory -->
+      <string>/Library/Application Support/Adobe/SLStore</string><!-- Standard Users have access to write to this directory -->
+      <string>/Library/Application Support/Adobe/SLStore_v1</string><!-- Standard Users have access to write to this directory -->
+      <string>/Library/Application Support/Adobe/Bridge CS5.1 Extensions/</string><!-- Standard Users have access to write to this directory -->
+      <string>/Library/Application Support/Microsoft/</string><!-- Standard Users have access to write to this directory -->
+      <string>/Library/Application Support/regid.1986-12.com.adobe/</string><!-- Standard Users have access to write to this directory -->
+      <string>/Library/Application Support/GarageBand/</string><!-- Standard Users have access to write to this directory -->
+      <string>/System/Library/CoreServices/Applications/Directory Utility.app/</string>
+      <string>/System/Library/CoreServices/Applications/Folder Actions Setup.app/</string>
+      <string>/System/Library/CoreServices/Applications/Network Utility.app/</string>
+      <string>/System/Library/CoreServices/Applications/RAID Utility.app/</string>
+      <string>/System/Library/CoreServices/Applications/Screen Sharing.app/</string>
+      <string>/System/Library/CoreServices/Applications/System Image Utility.app/</string>
+      <string>/System/Library/CoreServices/Applications/Wireless Diagnostics.app/</string>
+      <string>/System/Library/CoreServices/Jar Launcher.app/</string><!-- Users should not be able to launch jar files with this disabled -->
+    </array>
+    <key>pathWhiteList</key>
+    <!--
+      array of strings
+      Optional. Paths to allowed applications.
+    -->
+    <array>
+      <string>/Applications/</string>
+      <string>/Library/Application Support/</string>
+      <string>/Library/Frameworks</string><!-- Added this directory to accomodate Adobe AIR Framework -->
+      <string>/Library/Internet Plug-Ins/</string>
+      <string>/Library/PrivilegedHelperTools/</string>
+      <string>/usr/local/</string>
+    </array>
+    <key>familyControlsEnabled</key>
+    <!--
+      boolean
+      Required. Set to true to enable application access restrictions.
+    -->
+    <true/>
+  </dict>
+</plist>
