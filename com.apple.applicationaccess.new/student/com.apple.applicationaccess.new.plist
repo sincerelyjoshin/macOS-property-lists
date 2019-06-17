@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
-  Default Student Restrictions profile.
+  The Parental Control Application Access payload is designated by specifying com.apple.applicationaccess.new as the PayloadType value.
+  In addition to the settings common to all payloads, this payload defines these keys:
 -->
 <plist version="1.0">
   <dict>
-    <key>pathBlackList</key><!-- -->
+    <key>pathBlackList</key>
+    <!--
+      array of strings
+      Optional. Paths to disallowed applications.
+    -->
     <array>
       <string>/Applications/App Store.app/</string>
       <string>/Applications/Automator.app/</string>
       <string>/Applications/FaceTime.app/</string>
       <string>/Applications/Game Center.app/</string>
-      <string>/Applications/Time Machine.app/</string>
+      <string>/Applications/Home.app/</string>
+      <string>/Applications/LEGO MINDSTORMS Education EV3.app/Contents/MonoBundle/Resources</string><!-- Standard Users have access to write to this directory -->
       <string>/Applications/Messages.app/</string>
       <string>/Applications/Siri.app/</string>
-      <string>/Applications/LEGO MINDSTORMS Education EV3.app/Contents/MonoBundle/Resources</string><!-- Standard Users have access to write to this directory -->
+      <string>/Applications/Time Machine.app/</string>
       <string>/Applications/Utilities/Activity Monitor.app/</string>
       <string>/Applications/Utilities/AirPort Utility.app/</string>
       <string>/Applications/Utilities/Bluetooth File Exchange.app/</string>
@@ -41,16 +47,24 @@
       <string>/System/Library/CoreServices/Applications/System Image Utility.app/</string>
       <string>/System/Library/CoreServices/Applications/Wireless Diagnostics.app/</string>
     </array>
-    <key>pathWhiteList</key><!-- -->
+    <key>pathWhiteList</key>
+    <!--
+      array of strings
+      Optional. Paths to allowed applications.
+    -->
     <array>
       <string>/Applications/</string>
       <string>/Library/Application Support/</string>
-      <string>/usr/local/</string>
       <string>/Library/Frameworks</string><!-- Added this directory to accomodate Adobe AIR Framework -->
       <string>/Library/Internet Plug-Ins/</string>
       <string>/Library/PrivilegedHelperTools/</string>
+      <string>/usr/local/</string>
     </array>
-    <key>familyControlsEnabled</key><!-- -->
+    <key>familyControlsEnabled</key>
+    <!--
+      boolean
+      Required. Set to true to enable application access restrictions.
+    -->
     <true/>
   </dict>
 </plist>
