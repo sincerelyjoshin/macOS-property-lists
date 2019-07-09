@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+The macOS App Store restrictions payload is designated by specifying com.apple.appstore as the PayloadType value.
+In addition to the settings common to all payloads, this payload defines the following keys:
+-->
+<plist version="1.0">
+<dict>
+	<key>DisableSoftwareUpdateNotifications</key>
+	<!--
+		boolean
+		If true, disables software update notifications. Available on macOS 10.10 and later.
+		Default: false
+	-->
+	<true/>
+	<key>restrict-store-disable-app-adoption</key>
+	<!--
+		boolean
+		If true, disables app adoption by users. Available on macOS 10.10 and later.
+		Default: false
+	-->
+	<true/>
+	<key>restrict-store-require-admin-to-install</key>
+	<!--
+		boolean
+		If true, restricts app installations to admin users only. Available on macOS 10.9 and later.
+		Default: false
+	-->
+	<true/>
+	<key>restrict-store-softwareupdate-only</key>
+	<!--
+		boolean
+		If true, restricts app installations to software updates only. Available on macOS 10.10 and later.
+		Default: false
+	-->
+	<true/>
+</dict>
+</plist>
