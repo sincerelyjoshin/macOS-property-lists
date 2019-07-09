@@ -7,6 +7,9 @@
 ### com.apple.appstore
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.appstore/staff/com.apple.appstore.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.appstore/student/com.apple.appstore.plist)
+### com.apple.loginwindow
+#### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.loginwindow/staff/com.apple.loginwindow.plist)
+#### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.loginwindow/student/com.apple.loginwindow.plist)
 ### com.apple.systempreferences
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempreferences/staff/com.apple.systempreferences.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempreferences/student/com.apple.systempreferences.plist)
