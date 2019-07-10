@@ -16,6 +16,9 @@
 ### com.apple.loginwindow
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.loginwindow/staff/com.apple.loginwindow.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.loginwindow/student/com.apple.loginwindow.plist)
+### com.apple.MCX
+#### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.MCX/staff/portable/com.apple.MCX.plist)
+#### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.MCX/student/portable/com.apple.MCX.plist)
 ### com.apple.systempreferences
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempreferences/staff/com.apple.systempreferences.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempreferences/student/com.apple.systempreferences.plist)

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <!--
+    The Global Preferences payload is designated by specifying .GlobalPreferences as the PayloadType value.
+    In addition to the settings common to all payloads, this payload defines the following keys:
+  -->
+<plist version="1.0">
+  <dict>
+    <key>com.apple.EnergySaver.desktop.ACPower</key>
+    <dict>
+      <!--
+        <key>Automatic Restart On Power Loss</key>
+          <!
+            integer
+            If true, enables "Start up automatically after a power failure."
+            Possible values: 0, 1
+          >
+        <integer></integer>
+        -->
+        <!--
+        <key>Disk Sleep Timer</key>
+          <!
+            integer
+            The disk sleep time, in minutes. A value of 0 means never.
+            Minimum: 1
+            Maximum: 180
+            Value: 0
+          >
+        <integer></integer>
+        -->
+        <!--
+        <key>Display Sleep Timer</key>
+          <!
+            integer
+            The display sleep time, in minutes. A value of 0 means never.
+            Minimum: 1
+            Maximum: 180
+            Value: 0
+          >
+        <integer></integer>
+        -->
+        <!--
+        <key>Dynamic Power Step</key>
+          <!
+            integer
+            May not be available on all systems.
+            Possible values: 0, 1
+          >
+        <integer></integer>
+        -->
+        <!--
+        <key>Reduce Processor Speed</key>
+          <!
+            integer
+            May not be available on all systems.
+            Possible values: 0, 1
+          >
+        <integer></integer>
+        -->
+        <!--
+        <key>System Sleep Timer</key>
+          <!
+            integer
+            System sleep time, in minutes. A value of 0 means never.
+            Minimum: 1
+            Maximum: 180
+            Value: 0
+          >
+        <integer></integer>
+        -->
+        <!--
+        <key>Wake on LAN</key>
+          <!
+            integer
+            If true, enables "Wake for network access."
+            Possible values: 0, 1
+          >
+        <integer></integer>
+        -->
+        <!--
+        <key>Wake On Modem Ring</key>
+          <!
+            integer
+            If true, enables "Wake for modem ring."
+            Possible values: 0, 1
+          >
+        <integer></integer>
+        -->
+    </dict>
+    <key>com.apple.EnergySaver.desktop.Schedule</key>
+    <dict>
+    </dict>
+    <key>com.apple.EnergySaver.portable.ACPower</key>
+    <dict>
+      <!--
+      <key>Automatic Restart On Power Loss</key>
+        <!
+          integer
+          If true, enables "Start up automatically after a power failure."
+          Possible values: 0, 1
+      <integer></integer>
+      -->
+      <!--
+      <key>Disk Sleep Timer</key>
+        <!
+          integer
+          The disk sleep time, in minutes. A value of 0 means never.
+          Minimum: 1
+          Maximum: 180
+          Value: 0
+        >
+      <integer></integer>
+      -->
+      <key>Display Sleep Timer</key>
+        <!--
+          integer
+          The display sleep time, in minutes. A value of 0 means never.
+          Minimum: 1
+          Maximum: 180
+          Value: 0
+        -->
+      <integer>30</integer>
+      <!--
+      <key>Dynamic Power Step</key>
+        <!
+          integer
+          May not be available on all systems.
+          Possible values: 0, 1
+        >
+      <integer></integer>
+      -->
+      <!--
+      <key>Reduce Processor Speed</key>
+        <!
+          integer
+          May not be available on all systems.
+          Possible values: 0, 1
+        >
+      <integer></integer>
+      -->
+      <key>System Sleep Timer</key>
+        <!--
+          integer
+          System sleep time, in minutes. A value of 0 means never.
+          Minimum: 1
+          Maximum: 180
+          Value: 0
+        -->
+      <integer>60</integer>
+      <key>Wake on LAN</key>
+        <!--
+          integer
+          If true, enables "Wake for network access."
+          Possible values: 0, 1
+        -->
+      <integer>1</integer>
+      <!--
+      <key>Wake On Modem Ring</key>
+        <!
+          integer
+          If true, enables "Wake for modem ring."
+          Possible values: 0, 1
+        >
+      <integer></integer>
+      -->
+    </dict>
+    <key>com.apple.EnergySaver.portable.BatteryPower</key>
+    <dict>
+      <!--
+      <key>Automatic Restart On Power Loss</key>
+        <!
+          integer
+          If true, enables "Start up automatically after a power failure."
+          Possible values: 0, 1
+      <integer></integer>
+      -->
+      <!--
+      <key>Disk Sleep Timer</key>
+        <!
+          integer
+          The disk sleep time, in minutes. A value of 0 means never.
+          Minimum: 1
+          Maximum: 180
+          Value: 0
+        >
+      <integer></integer>
+      -->
+      <key>Display Sleep Timer</key>
+        <!--
+          integer
+          The display sleep time, in minutes. A value of 0 means never.
+          Minimum: 1
+          Maximum: 180
+          Value: 0
+        -->
+      <integer>15</integer>
+      <!--
+      <key>Dynamic Power Step</key>
+        <!
+          integer
+          May not be available on all systems.
+          Possible values: 0, 1
+        >
+      <integer></integer>
+      -->
+      <!--
+      <key>Reduce Processor Speed</key>
+        <!
+          integer
+          May not be available on all systems.
+          Possible values: 0, 1
+        >
+      <integer></integer>
+      -->
+      <key>System Sleep Timer</key>
+        <!--
+          integer
+          System sleep time, in minutes. A value of 0 means never.
+          Minimum: 1
+          Maximum: 180
+          Value: 0
+        -->
+      <integer>30</integer>
+      <key>Wake on LAN</key>
+        <!--
+          integer
+          If true, enables "Wake for network access."
+          Possible values: 0, 1
+        -->
+      <integer>1</integer>
+      <!--
+      <key>Wake On Modem Ring</key>
+        <!
+          integer
+          If true, enables "Wake for modem ring."
+          Possible values: 0, 1
+        >
+      <integer></integer>
+      -->
+    </dict>
+    <!--
+    <key>DestroyFVKeyOnStandby</key>
+      <!
+        boolean
+        If true, prevents the OS from storing a temporary FileVault key in SMC or RAM for standby.
+        Default: false
+      >
+    -->
+    <key>DisableGuestAccount</key>
+      <!--
+        boolean
+        No official documentation available.
+      -->
+    <true/>
+    <!--
+    <key>DisableGuestSharedFolders</key>
+      <!
+        boolean
+        No official documentation available.
+      >
+    <false/>
+    -->
+    <!--
+    <key>DisableLocationServices</key>
+      <!
+        boolean
+        No official documentation available.
+      >
+    <false/>
+    -->
+    <!--
+    <key>EnableGuestAccount</key>
+      <!
+        boolean
+        No official documentation available.
+      >
+    <false/>
+    -->
+    <key>forceInternetSharingOff</key>
+      <!--
+        boolean
+        No official documentation available.
+      -->
+    <true/>
+    <!--
+    <key>SleepDisabled</key>
+      <!
+        boolean
+        If true, disables sleep.
+        Default: false
+      >
+    <false/>
+    -->
+  </dict>
+</plist>
