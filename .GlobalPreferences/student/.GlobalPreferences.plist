@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
   <!--
-    The Dock payload is designated by specifying com.apple.dock as the PayloadType.
-    The Dock payload is supported on the user channel and, except for AllowDockFixupOverride, on all versions of
-    macOS. The key AllowDockFixupOverride is supported on macOS 10.12 and later.
-    In addition to the settings common to all payloads, this payload defines the following keys:
+  The Global Preferences payload is designated by specifying .GlobalPreferences as the PayloadType value.
+  In addition to the settings common to all payloads, this payload defines the following keys:
   -->
 <plist version="1.0">
   <dict>
