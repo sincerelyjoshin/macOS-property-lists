@@ -248,16 +248,30 @@
       >
     <false/>
     -->
-    <!--
     <key>static-others</key>
-      <!
+      <!--
         An array of items that are located on the Documents side of the Dock and cannot be removed from that location.
-      >
+      -->
     <array>
       <dict>
+        <key>tile-data</key>
+        <dict>
+          <key>displayas</key>
+          <integer>1</integer>
+          <key>file-data</key>
+          <dict>
+            <key>_CFURLString</key>
+            <string>/Applications/</string>
+            <key>_CFURLStringType</key>
+            <integer>0</integer>
+          </dict>
+          <key>file-type</key>
+          <integer>3</integer>
+        </dict>
+        <key>tile-type</key>
+        <string>directory-tile</string>
       </dict>
     </array>
-    -->
     <!--
     <key>tilesize</key>
       <!
@@ -285,5 +299,29 @@
       >
     <false/>
     -->
+    <key>wvous-bl-corner</key>
+      <!--
+        integer
+        No official documentation available.
+      -->
+    <integer>1</integer>
+    <key>wvous-br-corner</key>
+      <!--
+        integer
+        No official documentation available.
+      -->
+    <integer>1</integer>
+    <key>wvous-tl-corner</key>
+      <!--
+        integer
+        No official documentation available.
+      -->
+    <integer>1</integer>
+    <key>wvous-tr-corner</key>
+      <!--
+        integer
+        No official documentation available.
+      -->
+    <integer>1</integer>
   </dict>
 </plist>
