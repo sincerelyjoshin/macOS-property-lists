@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <!--
+    The Software Update payload is designated by specifying com.apple.SoftwareUpdate as the PayloadType.
+    In addition to the settings common to all payloads, this payload defines the following key
+  -->
+<plist version="1.0">
+  <dict>
+    <key>AllowPreReleaseInstallation</key>
+      <!--
+        boolean
+        If true, prerelease software can be installed on this computer.
+        Default: true
+      -->
+    <false/>
+    <key>AutomaticallyInstallAppUpdates</key>
+      <!--
+        boolean
+        Default: true
+      -->
+    <false/>
+    <key>AutomaticallyInstallMacOSUpdates</key>
+      <!--
+        boolean
+        Default: true
+      -->
+    <false/>
+    <key>AutomaticCheckEnabled</key>
+      <!--
+        boolean
+        Default: true
+      -->
+    <false/>
+    <key>AutomaticDownload</key>
+      <!--
+        boolean
+        Default: true
+      -->
+    <false/>
+    <key>CatalogURL</key>
+      <!--
+        string
+        The URL of the software update catalog.
+      -->
+    <string>http://10.80.78.10:8088/index.sucatalog</string>
+    <key>ConfigDataInstall</key>
+      <!--
+        boolean
+        Default: true
+      -->
+    <false/>
+    <key>CriticalUpdateInstall</key>
+      <!--
+        boolean
+        Default: true
+      -->
+    <false/>
+    <key>restrict-software-update-require-admin-to-install</key>
+      <!--
+        boolean
+        If true, restrict app installations to admin users. This key has the same function as the restrict-store-require-admin-to-install key in the com.apple.appstore payload.
+        Default: true
+      -->
+    <false/>
+  </dict>
+</plist>
