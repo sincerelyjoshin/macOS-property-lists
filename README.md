@@ -13,6 +13,9 @@
 ### com.apple.dock
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.dock/staff/com.apple.dock.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.dock/student/com.apple.dock.plist)
+### com.apple.finder
+#### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.finder/staff/com.apple.finder.plist)
+#### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.finder/student/com.apple.finder.plist)
 ### com.apple.loginwindow
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.loginwindow/staff/com.apple.loginwindow.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.loginwindow/student/com.apple.loginwindow.plist)
