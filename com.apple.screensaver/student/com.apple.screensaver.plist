@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <!--
+    Screensaver payloads are designated by specifying com.apple.screensaver as the PayloadType.
+    The device level screensaver payload can be used to customize the screensaver and enable or disable the screen lock password function.
+    The Screensaver payload defines the following keys:
+  -->
+<plist version="1.0">
+  <dict>
+    <key>askForPassword</key>
+      <!--
+        boolean
+        If true, the user is prompted for a password when the screen saver is unlocked or stopped. When you use this prompt, you must also provide askForPasswordDelay.
+        Default: false
+      -->
+    <true/>
+    <key>askForPasswordDelay</key>
+      <!--
+        integer
+        The number of seconds to delay before the password will be required to unlock or stop the screen saver (the grace period). A value of 2147483647 (for example, 0x7FFFFFFF) disables this requirement. In macOS 10.13, use that value to disable the feature. To use this option, you must set askForPassword to true.
+      -->
+    <integer>5</integer>
+    <!--
+    <key>loginWindowIdleTime</key>
+      <!
+        integer
+        The number of seconds of inactivity before the screen saver activates (0 = Never activate).
+      >
+    <integer></integer>
+    -->
+    <!--
+    <key>loginWindowModulePath</key>
+      <!
+        string
+        The full path to the screen-saver module to use.
+      >
+    -->
+    <string></string>
+  </dict>
+</plist>
