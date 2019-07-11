@@ -20,8 +20,8 @@
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.MCX/staff/portable/com.apple.MCX.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.MCX/student/portable/com.apple.MCX.plist)
 ### com.apple.SoftwareUpdate
-#### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.SoftwareUpdate/staff/portable/com.apple.SoftwareUpdate.plist)
-#### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.SoftwareUpdate/student/portable/com.apple.SoftwareUpdate.plist)
+#### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.SoftwareUpdate/staff/com.apple.SoftwareUpdate.plist)
+#### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.SoftwareUpdate/student/com.apple.SoftwareUpdate.plist)
 ### com.apple.systempreferences
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempreferences/staff/com.apple.systempreferences.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempreferences/student/com.apple.systempreferences.plist)
