@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <!--
+    Google Chrome payloads are designated by specifying com.google.Chrome as the PayloadType.
+  -->
+<plist version="1.0">
+  <dict>
+    <key>BrowserGuestModeEnabled</key>
+      <!--
+        boolean
+        If this policy is set to true or not configured, Google Chrome will enable guest logins. Guest logins are Google Chrome profiles where all windows are in incognito mode.
+        If this policy is set to false, Google Chrome will not allow guest profiles to be started.
+        Default: true
+      -->
+    <false/>
+    <key>DefaultPluginsSetting</key>
+      <!--
+        integer
+        Allows you to set whether websites are allowed to automatically run the Flash plugin. Automatically running the Flash plugin can be either allowed for all websites or denied for all websites.
+        Click to play allows the Flash plugin to run but the user must click on the placeholder to start its execution.
+        Automatic playback is only allowed for domains explictly listed in the PluginsAllowedForUrls policy. If you want to enabled automatic playback for all sites consider adding http://* and https://* to this list.
+        If this policy is left not set, the user will be able to change this setting manually.
+        1 = Allow all sites to automatically run the Flash plugin
+        2 = Block the Flash plugin
+        3 = Click to play
+      -->
+    <integer>1</integer>
+    <key>ForceBrowserSignin</key>
+      <!--
+        boolean
+        If this policy is set to true, user has to sign in to Google Chrome with their profile before using the browser. And the default value of BrowserGuestModeEnabled will be set to false. Note that existing unsigned profiles will be locked and inaccessible after enabling this policy. For more information, see help center article.
+        If this policy is set to false or not configured, user can use the browser without sign in to Google Chrome.
+        Default: false
+      -->
+    <true/>
+    <key>RestrictSigninToPattern</key>
+      <!--
+        string
+        Contains a regular expression which is used to determine which users can sign in to Google Chrome.
+        An appropriate error is displayed if a user tries to log in with a username that does not match this pattern.
+        If this policy is left not set or blank, then any user can sign in to Google Chrome.
+      -->
+    <string>*@sailornet.org</string>
+  </dict>
+</plist>
