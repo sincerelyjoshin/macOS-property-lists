@@ -31,3 +31,6 @@
 ### com.apple.systempreferences
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempreferences/staff/com.apple.systempreferences.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempreferences/student/com.apple.systempreferences.plist)
+### com.google.Chrome
+#### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.google.Chrome/staff/com.google.Chrome.plist)
+#### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.google.Chrome/student/com.google.Chrome.plist)
