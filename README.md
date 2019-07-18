@@ -28,6 +28,9 @@
 ### com.apple.SoftwareUpdate
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.SoftwareUpdate/staff/com.apple.SoftwareUpdate.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.SoftwareUpdate/student/com.apple.SoftwareUpdate.plist)
+### com.apple.systempolicy.control
+#### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempolicy.control/staff/com.apple.systempolicy.control.plist)
+#### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempolicy.control/student/com.apple.systempolicy.control.plist)
 ### com.apple.systempreferences
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempreferences/staff/com.apple.systempreferences.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.systempreferences/student/com.apple.systempreferences.plist)
