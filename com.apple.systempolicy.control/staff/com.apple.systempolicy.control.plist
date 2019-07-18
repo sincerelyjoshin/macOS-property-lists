@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <!--
+    The payload for configuring the system policy for assessments.
+  -->
+<plist version="1.0">
+  <dict>
+    <key>AllowIdentifiedDevelopers</key>
+      <!--
+        boolean
+        (Required) If true, enables Gatekeeper's "Mac App Store and identified developers" option. If false, enables Gatekeeper's "Mac App Store" option. If the value of EnableAssessment isn't set to true, this key has no effect.
+      -->
+    <true/>
+    <key>EnableAssessment</key>
+      <!--
+        boolean
+        (Required) If true, enables Gatekeeper.
+      -->
+    <false/>
+  </dict>
+</plist>
