@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <!--
+    The payload for configuring printers.
+  -->
+<plist version="1.0">
+  <dict>
+    <!--
+    <key>AllowLocalPrinters</key>
+      <!
+        boolean
+        If true, allows printers that connect directly to a user's computer.
+        Default: true
+      >
+    <true/>
+    -->
+    <!--
+    <key>DefaultPrinter</key>
+      <!
+        boolean
+        The default printer for the user.
+      >
+    <array>
+        <key>DeviceURI</key>
+          <!
+            The device URI.
+          >
+        <string></string>
+        <key>DisplayName</key>
+          <!
+          The display name.
+          >
+        <string></string>
+    </array>
+    -->
+    <!--
+    <key>FooterFontName</key>
+      <!
+        string
+        The footer font name.
+      >
+    <string>Helvetica</string>
+    -->
+    <!--
+    <key>FooterFontSize</key>
+      <!
+        string
+        The footer font size.
+      >
+    <string>8</string>
+    -->
+    <!--
+    <key>PrintFooter</key>
+      <!
+        boolean
+        If true, prints the page footer (including the user name and date).
+        Default: false
+      >
+    <true/>
+    -->
+    <!--
+    <key>PrintMACAddress</key>
+      <!
+        boolean
+        If true, includes the MAC address.
+        Default: false
+      >
+    <true/>
+    -->
+    <key>RequireAdminToAddPrinters</key>
+      <!--
+        boolean
+        If true, requires an administrator password to add printers.
+        Default: true
+      -->
+    <false/>
+    <!--
+    <key>RequireAdminToPrintLocally</key>
+      <!
+        boolean
+        If true, requires an administrator password to print locally.
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>ShowOnlyManagedPrinters</key>
+      <!
+        boolean
+        If true, shows only managed printers.
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>UserPrinterList</key>
+      <!
+        The printers available to a user.
+      >
+    -->
+  </dict>
+</plist>
