@@ -25,6 +25,9 @@
 ### com.apple.mcxprinting
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.mcxprinting/staff/com.apple.mcxprinting.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.mcxprinting/student/com.apple.mcxprinting.plist)
+### com.apple.Safari
+#### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.Safari/staff/com.apple.Safari.plist)
+#### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.Safari/student/com.apple.Safari.plist)
 ### com.apple.screensaver
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.screensaver/staff/com.apple.screensaver.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.screensaver/student/com.apple.screensaver.plist)
