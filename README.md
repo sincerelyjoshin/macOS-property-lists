@@ -19,9 +19,11 @@
 ### com.apple.loginwindow
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.loginwindow/staff/com.apple.loginwindow.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.loginwindow/student/com.apple.loginwindow.plist)
+#### [student-auto-login_override](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.loginwindow/student/auto-login_override/com.apple.loginwindow.plist)
 ### com.apple.MCX
-#### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.MCX/staff/portable/com.apple.MCX.plist)
-#### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.MCX/student/portable/com.apple.MCX.plist)
+#### [staff-portable](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.MCX/staff/portable/com.apple.MCX.plist)
+#### [student-portable](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.MCX/student/portable/com.apple.MCX.plist)
+#### [student-portable-guest_account_restriction_override](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.MCX/student/portable/guest_account_restriction_override/com.apple.MCX.plist)
 ### com.apple.mcxprinting
 #### [staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.mcxprinting/staff/com.apple.mcxprinting.plist)
 #### [student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.mcxprinting/student/com.apple.mcxprinting.plist)
