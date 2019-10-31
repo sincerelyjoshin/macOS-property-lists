@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <!--
+    The payload for configuring Google Keystone settings.
+  -->
+<plist version="1.0">
+  <dict>
+    <key>updatePolicies</key>
+    <dict>
+        <key>global</key>
+        <dict>
+          <key>UpdateDefault</key>
+            <!--
+              0: Turns on auto-updates. Updates are always applied when detected by Google Software Update. This is the default value.
+              1: Updates are installed only from the scheduled update checks. Manual update checks will not install updates.
+              2: Turns off auto-updates. This stops Google Software Update automatically updating all users to the latest stable version of Chrome. Updates are only applied when the user manually checks for updates. For example, on the chrome://help page or by running the CheckForUpdatesNow.command utility.
+              3: Updates are never applied.
+            -->
+          <integer>3</integer>
+          <key>ComponentUpdatesEnabled</key>
+          <false/>
+        </dict>
+    </dict>
+  </dict>
+</plist>
