@@ -1,6 +1,6 @@
 ### .GlobalPreferences
-#### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/.GlobalPreferences/staff/.GlobalPreferences.plist)
-#### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/.GlobalPreferences/student/.GlobalPreferences.plist)
+#### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/.GlobalPreferences/staff/GlobalPreferences.plist)
+#### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/.GlobalPreferences/student/GlobalPreferences.plist)
 ### com.apple.applicationaccess
 #### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.applicationaccess/staff/com.apple.applicationaccess.plist)
 #### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.applicationaccess/student/com.apple.applicationaccess.plist)
