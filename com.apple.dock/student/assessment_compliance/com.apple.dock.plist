@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <!--
+    The Dock payload is designated by specifying com.apple.dock as the PayloadType.
+    The Dock payload is supported on the user channel and, except for AllowDockFixupOverride, on all versions of
+    macOS. The key AllowDockFixupOverride is supported on macOS 10.12 and later.
+    In addition to the settings common to all payloads, this payload defines the following keys:
+  -->
+<plist version="1.0">
+  <dict>
+    <!--
+    <key>AllowDockFixupOverride</key>
+      <!
+        boolean
+        If true, use the file in /Library/Preferences/com.apple.dockfixup.plist when a new user or migrated user logs in. The format of this file has no documentation. This option has no effect for existing users.
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>autohide</key>
+      <!
+        boolean
+        If true, enables "Automatically hide and show the dock."
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>autohide-immutable</key>
+      <!
+        boolean
+        If true, locks "Automatically hide."
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>contents-immutable</key>
+      <!
+        boolean
+        If true, disables changes to the dock.
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>dblclickbehavior</key>
+      <!
+        string
+        Possible values: minimize, maximize, none
+      >
+    <string></string>
+    -->
+    <!--
+    <key>dblclickbehavior-immutable</key>
+      <!
+        boolean
+        If true, locks "Double-click a window's title bar."
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>largesize</key>
+      <!
+        integer
+        The size of the largest magnification.
+        Minimum: 16
+        Maximum: 128
+      >
+    <integer></integer>
+    -->
+    <!--
+    <key>launchanim</key>
+      <!
+        boolean
+        If true, enables "Animate opening applications."
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>launchanim-immutable</key>
+      <!
+        boolean
+        If true, locks "Animate opening applications."
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>magnification</key>
+      <!
+        boolean
+        If true, enables magnification.
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>magnify-immutable</key>
+      <!
+        boolean
+        If true, locks magnification.
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>magsize-immutable</key>
+      <!
+        boolean
+        If true, locks the magnification slider.
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>mcx-expose-disabled</key>
+      <!
+        boolean
+        No official documentation available.
+        Deprecated: Not functioning in 10.14.5
+      >
+    <true/>
+    -->
+    <!--
+    <key>MCXDockSpecialFolders</key>
+      <!
+        [string]
+        One or more special folders that may be created at user login time and placed in the dock.
+        The "My Applications" item is only used for Simple Finder environments. The "Original Network Home" item is only used for mobile account users.
+        Possible values: AddDockMCXMyApplicationsFolder, AddDockMCXDocumentsFolder, AddDockMCXSharedFolder, AddDockMCXOriginalNetworkHomeFolder
+      >
+    <string></string>
+    -->
+    <!--
+    <key>mineffect</key>
+      <!
+        string
+        The minimize effect.
+        Possible values: genie, scale
+      >
+    <string></string>
+    -->
+    <!--
+    <key>mineffect-immutable</key>
+      <!
+        boolean
+        If true, locks "Minimize windows using."
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>minimize-to-application</key>
+      <!
+        boolean
+        If true, enables "Minimize windows into application icon."
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>minintoapp-immutable</key>
+      <!
+        boolean
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>orientation</key>
+      <!
+        string
+        The orientation of the dock.
+        Possible values: bottom, left, right
+      >
+    <string></string>
+    -->
+    <!--
+    <key>position-immutable</key>
+      <!
+        boolean
+        If true, locks the position.
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>showAppExposeGestureEnabled</key>
+      <!
+        boolean
+        No official documentation available.
+        Deprecated: Not functioning in 10.14.5
+      >
+    <false/>
+    -->
+    <!--
+    <key>showDesktopGestureEnabled</key>
+      <!
+        boolean
+        No official documentation available.
+        Deprecated: Not functioning in 10.14.5
+      >
+    <false/>
+    -->
+    <key>show-process-indicators</key>
+      <!--
+        boolean
+        If `true, shows the process indicator.
+        Default: false
+      -->
+    <true/>
+    <!--
+    <key>show-recents</key>
+      <!
+        boolean
+        If true, enables "Show recent items."
+        Default: false
+      >
+    <false/>
+    -->
+    <!--
+    <key>showrecents-immutable</key>
+      <!
+        boolean
+        Default: false
+      >
+    <false/>
+    -->
+    <key>showindicators-immutable</key>
+      <!--
+        boolean
+        If true, locks "Show indicators."
+        Default: false
+      -->
+    <true/>
+    <!--
+    <key>size-immutable</key>
+      <!
+        boolean
+        If true, locks the size slider.
+        Default: false
+      >
+    <false/>
+    -->
+    <key>showLaunchpadGestureEnabled</key>
+      <!--
+        boolean
+        No official documentation available.
+      -->
+    <false/>
+    <!--
+    <key>showMissionControlGestureEnabled</key>
+      <!
+        boolean
+        No official documentation available.
+        Deprecated: Not functioning in 10.14.5
+      >
+    <false/>
+    -->
+    <key>static-apps</key>
+      <!--
+        An array of items that are located on the Applications side of the Dock and cannot be removed from that location.
+      -->
+    <array>
+      <dict>
+        <key>tile-data</key>
+        <dict>
+          <key>file-data</key>
+          <dict>
+            <key>_CFURLString</key>
+            <string>/Applications/Self Service.app</string>
+            <key>_CFURLStringType</key>
+            <integer>0</integer>
+          </dict>
+        </dict>
+        <key>tile-type</key>
+        <string>file-tile</string>
+      </dict>
+    </array>
+    <!--
+    <key>static-only</key>
+      <!
+        boolean
+        If true, uses the static-apps and static-others dictionaries for the dock and ignores any items in the persistent-apps and persistent-others dictionaries. If false, the contents are merged with the static items listed first.
+        Default: false
+      >
+    <false/>
+    -->
+    <key>static-others</key>
+      <!--
+        An array of items that are located on the Documents side of the Dock and cannot be removed from that location.
+      -->
+    <array>
+      <dict>
+        <key>tile-data</key>
+        <dict>
+          <key>displayas</key>
+          <integer>1</integer>
+          <key>file-data</key>
+          <dict>
+            <key>_CFURLString</key>
+            <string>/Applications/</string>
+            <key>_CFURLStringType</key>
+            <integer>0</integer>
+          </dict>
+          <key>file-type</key>
+          <integer>3</integer>
+        </dict>
+        <key>tile-type</key>
+        <string>directory-tile</string>
+      </dict>
+    </array>
+    <!--
+    <key>tilesize</key>
+      <!
+        integer
+        The tile size. Values must be in the range from 16 to 128.
+        Minimum: 16
+        Maximum: 128
+      >
+    <integer></integer>
+    -->
+    <!--
+    <key>windowtabbing</key>
+      <!
+        string
+        Possible values: manual, always, fullscreen
+      >
+    <string></string>
+    -->
+    <!--
+    <key>windowtabbing-immutable</key>
+      <!
+        boolean
+        If true, locks "Prefer tabs when opening documents."
+        Default: false
+      >
+    <false/>
+    -->
+    <key>wvous-bl-corner</key>
+      <!--
+        integer
+        No official documentation available.
+      -->
+    <integer>1</integer>
+    <key>wvous-br-corner</key>
+      <!--
+        integer
+        No official documentation available.
+      -->
+    <integer>1</integer>
+    <key>wvous-tl-corner</key>
+      <!--
+        integer
+        No official documentation available.
+      -->
+    <integer>1</integer>
+    <key>wvous-tr-corner</key>
+      <!--
+        integer
+        No official documentation available.
+      -->
+    <integer>1</integer>
+  </dict>
+</plist>
