@@ -6,6 +6,7 @@
 #### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.applicationaccess/student/com.apple.applicationaccess.plist)
 #### [Student - Assessment Compliance](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.applicationaccess/student/assessment_compliance/com.apple.applicationaccess.plist)
 ### com.apple.applicationaccess.new
+#### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.applicationaccess.new/staff/com.apple.applicationaccess.new.plist)
 #### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.applicationaccess.new/student/com.apple.applicationaccess.new.plist)
 #### [Student - Java Restriction](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.applicationaccess.new/student/java_restriction/com.apple.applicationaccess.new.plist)
 ### com.apple.appstore
