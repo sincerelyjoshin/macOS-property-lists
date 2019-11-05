@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  The Parental Control Application Access payload is designated by specifying com.apple.applicationaccess.new as the PayloadType value.
+  In addition to the settings common to all payloads, this payload defines these keys:
+-->
+<plist version="1.0">
+  <dict>
+    <!--
+    <key>pathBlackList</key>
+      array of strings
+      Optional. Paths to disallowed applications.
+    <array>
+    </array>
+    -->
+    <key>pathWhiteList</key>
+    <!--
+      array of strings
+      Optional. Paths to allowed applications.
+    -->
+    <array>
+      <string>/Applications/</string>
+      <string>/Library/Application Support/</string>
+      <string>/Library/Frameworks</string><!-- Added this directory to accomodate Adobe AIR Framework -->
+      <string>/Library/Internet Plug-Ins/</string>
+      <string>/Library/PrivilegedHelperTools/</string>
+      <string>/usr/local/</string>
+    </array>
+    <key>familyControlsEnabled</key>
+    <!--
+      boolean
+      Required. Set to true to enable application access restrictions.
+    -->
+    <true/>
+  </dict>
+</plist>
