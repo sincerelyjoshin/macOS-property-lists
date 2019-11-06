@@ -1,6 +1,3 @@
-### .GlobalPreferences
-#### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/.GlobalPreferences/staff/GlobalPreferences.plist)
-#### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/.GlobalPreferences/student/GlobalPreferences.plist)
 ### com.apple.applicationaccess
 #### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.applicationaccess/staff/com.apple.applicationaccess.plist)
 #### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.apple.applicationaccess/student/com.apple.applicationaccess.plist)
@@ -53,6 +50,9 @@
 ### com.google.Keystone
 #### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.google.Keystone/staff/com.google.Keystone.plist)
 #### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.google.Keystone/student/com.google.Keystone.plist)
+### GlobalPreferences
+#### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/GlobalPreferences/staff/GlobalPreferences.plist)
+#### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/GlobalPreferences/student/GlobalPreferences.plist)
 ### org.mozilla.firefox
 #### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/org.mozilla.firefox/staff/org.mozilla.firefox.plist)
 #### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/org.mozilla.firefox/student/org.mozilla.firefox.plist)
