@@ -50,6 +50,9 @@
 ### com.google.Keystone
 #### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.google.Keystone/staff/com.google.Keystone.plist)
 #### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.google.Keystone/student/com.google.Keystone.plist)
+### com.microsoft.autoupdate2
+#### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.microsoft.autoupdate2/staff/com.microsoft.autoupdate2.plist)
+#### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/com.microsoft.autoupdate2/student/com.microsoft.autoupdate2.plist)
 ### GlobalPreferences
 #### [Staff](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/GlobalPreferences/staff/GlobalPreferences.plist)
 #### [Student](https://github.com/sincerelyjoshin/macOS-configuration-profiles/blob/master/GlobalPreferences/student/GlobalPreferences.plist)
