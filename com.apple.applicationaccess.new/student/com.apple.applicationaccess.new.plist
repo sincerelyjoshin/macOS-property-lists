@@ -57,6 +57,7 @@
       <string>/Library/Application Support/</string>
       <string>/Library/Frameworks</string><!-- Added this directory to accomodate Adobe AIR Framework -->
       <string>/Library/Internet Plug-Ins/</string>
+      <string>/Library/Java/</string>
       <string>/Library/PrivilegedHelperTools/</string>
       <string>/usr/local/</string>
     </array>
