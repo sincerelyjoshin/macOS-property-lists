@@ -47,6 +47,7 @@
       <string>/System/Library/CoreServices/Applications/Screen Sharing.app/</string>
       <string>/System/Library/CoreServices/Applications/System Image Utility.app/</string>
       <string>/System/Library/CoreServices/Applications/Wireless Diagnostics.app/</string>
+      <string>/System/Library/CoreServices/Jar Launcher.app/</string><!-- Users should not be able to launch jar files with this disabled -->
     </array>
     <key>pathWhiteList</key>
     <!--
@@ -58,9 +59,9 @@
       <string>/Library/Application Support/</string>
       <string>/Library/Frameworks</string><!-- Added this directory to accomodate Adobe AIR Framework -->
       <string>/Library/Internet Plug-Ins/</string>
-      <string>/Library/Java/</string>
       <string>/Library/PrivilegedHelperTools/</string>
       <string>/usr/local/</string>
+      <string>~/Library/Application Support/Pearson/TestNav/</string>
     </array>
     <key>familyControlsEnabled</key>
     <!--

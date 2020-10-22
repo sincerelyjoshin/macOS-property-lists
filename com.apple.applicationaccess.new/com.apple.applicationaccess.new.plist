@@ -32,6 +32,7 @@
       <string>/Applications/Utilities/Script Editor.app/</string>
       <string>/Applications/Utilities/Terminal.app/</string>
       <string>/Applications/Utilities/X11.app/</string>
+      <string>/Library/Application Support/Adobe/Extension Manager CC/</string><!-- Standard Users have access to write to this directory -->
       <string>/Library/Application Support/Adobe/Extension Manager CS5.5/</string><!-- Standard Users have access to write to this directory -->
       <string>/Library/Application Support/Adobe/SLStore</string><!-- Standard Users have access to write to this directory -->
       <string>/Library/Application Support/Adobe/SLStore_v1</string><!-- Standard Users have access to write to this directory -->
@@ -58,6 +59,7 @@
       <string>/Library/Application Support/</string>
       <string>/Library/Frameworks</string><!-- Added this directory to accomodate Adobe AIR Framework -->
       <string>/Library/Internet Plug-Ins/</string>
+      <string>/Library/Java/</string>
       <string>/Library/PrivilegedHelperTools/</string>
       <string>/usr/local/</string>
     </array>
