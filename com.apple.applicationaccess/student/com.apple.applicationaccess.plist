@@ -181,14 +181,14 @@
       Default: true
     <true/>
     -->
-    <!--
     <key>allowPasscodeModification</key>
+    <!--
       boolean
       If false, prevents the device passcode from being added, changed, or removed.
       This restriction is ignored by Shared iPads. Requires a supervised device. Available in iOS 9 and later, and macOS 10.13 and later.
       Default: true
-    <true/>
-    -->
+      -->
+    <false/>
     <key>allowPasswordAutoFill</key>
     <!--
       boolean
@@ -239,15 +239,15 @@
       Default: true
     <true/>
     -->
-    <!--
     <key>enforcedSoftwareUpdateDelay</key>
+    <!--
       integer
       Sets how many days a software update on the device will be delayed. With this restriction in place, the user won't see a software update until the specified number of days after the software update release date. Requires a supervised device. Available in iOS 11.3 and later, macOS 10.13.4 and later, and tvOS 12.2 and later.
       Default: 30
       Minimum: 1
       Maximum: 90
-    <integer>30<integer/>
     -->
+    <integer>90</integer>
     <!--
     <key>forceClassroomAutomaticallyJoinClasses</key>
       boolean
@@ -276,14 +276,14 @@
       Default: false
     <false/>
     -->
-    <!--
     <key>forceDelayedSoftwareUpdates</key>
+    <!--
       boolean
       If true, delays user visibility of software updates.
       In macOS, seed build updates are allowed, without delay. Requires a supervised device. Available in iOS 11.3 and later, macOS 10.13 and later, and tvOS 12.2 and later.
       Default: false
-    <false/>
     -->
+    <true/>
     <key>safariAllowAutoFill</key>
     <!--
       boolean
