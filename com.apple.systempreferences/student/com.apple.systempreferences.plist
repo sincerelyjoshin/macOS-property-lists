@@ -76,8 +76,11 @@
       <string>com.apple.preference.printfax</string>
         "Printers & Scanners" Preference Pane, Location:/System/Library/PreferencePanes/PrintAndScan.prefPane
       -->
-      <string>com.apple.preference.security</string>
+      <string>com.apple.preference.screentime</string>
       <!--
+      -->
+      <!--
+      <string>com.apple.preference.security</string>
         "Security & Privacy" Preference Pane, Location:/System/Library/PreferencePanes/Security.prefPane
       -->
       <!--
@@ -104,8 +107,8 @@
       <string>com.apple.preference.universalaccess</string>
         "Accessibility" Preference Pane, Location:/System/Library/PreferencePanes/UniversalAccessPref.prefPane
       -->
-      <string>com.apple.preferences.appstore</string>
       <!--
+      <string>com.apple.preferences.appstore</string>
       -->
       <!--
       <string>com.apple.preferences.Bluetooth</string>
@@ -136,34 +139,34 @@
         "Touch ID" Preference Pane, Location:/System/Library/PreferencePanes/TouchID.prefPane
       -->
       <string>com.apple.preferences.sharing</string>
-      <!--
+        <!--
         "Sharing" Preference Pane, Location:/System/Library/PreferencePanes/SharingPref.prefPane
-      -->
+        -->
       <string>com.apple.preferences.softwareupdate</string>
       <!--
         "Software Update" Preference Pane, Location:/System/Library/PreferencePanes/SoftwareUpdate.prefPane
       -->
-      <string>com.apple.preferences.users</string>
       <!--
+      <string>com.apple.preferences.users</string>
         "Users & Groups" Preference Pane, Location:/System/Library/PreferencePanes/Accounts.prefPane
       -->
       <string>com.apple.preferences.wallet</string>
       <!--
         "Wallet & Apple Pay" Preference Pane, Location:/System/Library/PreferencePanes/Wallet.prefPane
       -->
-      <string>com.apple.prefpanel.fibrechannel</string>
       <!--
+      <string>com.apple.prefpanel.fibrechannel</string>
         "Fibre Channel" Preference Pane, Location:System/Library/PreferencePanes/FibreChannel.prefPane
       -->
-      <string>com.apple.prefs.backup</string>
       <!--
+      <string>com.apple.prefs.backup</string>
         "Time Machine" Preference Pane, Location:/System/Library/PreferencePanes/TimeMachine.prefPane
       -->
+      <!--
       <string>com.apple.prefs.password</string>
-      <!--
       -->
-      <string>com.apple.Xsan</string>
       <!--
+      <string>com.apple.Xsan</string>
       -->
     </array>
     <key>EnabledPreferencePanes</key>
@@ -172,8 +175,8 @@
       The list of enabled System Preferences panes.
     -->
     <array>
-      <!--
       <string>com.apple.ClassroomSettings</string>
+      <!--
         "Classroom" Preference Pane, Location:/System/Library/PreferencePanes/ClassroomSettings.prefPane
       -->
       <string>com.apple.Localization</string>
@@ -236,9 +239,13 @@
       <!--
         "Printers & Scanners" Preference Pane, Location:/System/Library/PreferencePanes/PrintAndScan.prefPane
       -->
-      <!--
       <string>com.apple.preference.security</string>
+      <!--
         "Security & Privacy" Preference Pane, Location:/System/Library/PreferencePanes/Security.prefPane
+      -->
+      <string>com.apple.preference.sidecar</string>
+      <!--
+        "Sidecar" Preference Pane
       -->
       <string>com.apple.preference.sound</string>
       <!--
@@ -264,8 +271,11 @@
       <!--
         "Accessibility" Preference Pane, Location:/System/Library/PreferencePanes/UniversalAccessPref.prefPane
       -->
+      <string>com.apple.preferences.AppleIDPrefPane</string>
       <!--
+      -->
       <string>com.apple.preferences.appstore</string>
+      <!--
       -->
       <string>com.apple.preferences.Bluetooth</string>
       <!--
@@ -278,6 +288,9 @@
       <string>com.apple.preferences.extensions</string>
       <!--
         "Extensions" Preference Pane, Location:/System/Library/PreferencePanes/Extensions.prefPane
+      -->
+      <string>com.apple.preferences.FamilySharingPrefPane</string>
+      <!--
       -->
       <string>com.apple.preferences.icloud</string>
       <!--
@@ -303,8 +316,8 @@
       <string>com.apple.preferences.softwareupdate</string>
         "Software Update" Preference Pane, Location:/System/Library/PreferencePanes/SoftwareUpdate.prefPane
       -->
-      <!--
       <string>com.apple.preferences.users</string>
+      <!--
         "Users & Groups" Preference Pane, Location:/System/Library/PreferencePanes/Accounts.prefPane
       -->
       <!--
@@ -315,8 +328,8 @@
       <string>com.apple.prefpanel.fibrechannel</string>
         "Fibre Channel" Preference Pane, Location:System/Library/PreferencePanes/FibreChannel.prefPane
       -->
-      <!--
       <string>com.apple.prefs.backup</string>
+      <!--
         "Time Machine" Preference Pane, Location:/System/Library/PreferencePanes/TimeMachine.prefPane
       -->
       <!--
